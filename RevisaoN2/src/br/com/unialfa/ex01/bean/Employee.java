@@ -1,4 +1,4 @@
-package br.com.jdbc.model.bean;
+package br.com.unialfa.ex01.bean;
 
 public class Employee {
 

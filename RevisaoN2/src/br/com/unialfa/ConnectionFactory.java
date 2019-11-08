@@ -1,4 +1,4 @@
-package br.com.jdbc.model;
+package br.com.unialfa;
 
 import java.sql.SQLException;
 import java.sql.DriverManager;
@@ -11,7 +11,7 @@ public class ConnectionFactory {
        private static ResourceBundle config;
 
        private ConnectionFactory() {
-              this.config = ResourceBundle.getBundle("br.com.jdbc.model.config");
+              this.config = ResourceBundle.getBundle("br.com.unialfa.config");
        }
 
        public static ConnectionFactory getInstance() {

@@ -1,4 +1,4 @@
-package br.com.jdbc.model.dao;
+package br.com.unialfa.ex01.dao;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

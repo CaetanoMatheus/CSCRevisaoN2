@@ -1,13 +1,12 @@
-package br.com.jdbc.model.dao;
+package br.com.unialfa.ex01.dao;
 
-import java.sql.Date;
 import java.util.ArrayList;
 import java.sql.ResultSet;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.PreparedStatement;
-import br.com.jdbc.model.bean.Employee;
-import br.com.jdbc.model.ConnectionFactory;
+import br.com.unialfa.ex01.bean.Employee;
+import br.com.unialfa.ConnectionFactory;
 
 public class EmployeeDao implements GenericoDao<Employee> {
 

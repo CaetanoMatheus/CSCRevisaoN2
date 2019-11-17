@@ -118,3 +118,11 @@ III. Permite ao desenvolvedor reutilizar um mesmo objeto de modelo em diversas v
 2. ***I e III apenas.***
 3. II e III apenas.
 4. I, II e III.
+
+***Questão 08:*** Em uma aplicação de votação *online* desenvolvida em três camadas do tipo MVC, o *controller* é responsável por
+
+1. ***transformar eventos gerados pela view em ações de negócio, alterando o model.***
+2. transformar eventos gerados pela view em ações temporárias de negócio.
+3. manipular a tela com dados de negócio que podem ser alerados diretamente com o banco de dados.
+4. manipular o *model* do sistema responsável pela interface com o cliente.
+5. alterar a *view* do sistema que contém a lógica do negócio.

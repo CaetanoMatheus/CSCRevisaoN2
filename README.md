@@ -134,3 +134,11 @@ III. Permite ao desenvolvedor reutilizar um mesmo objeto de modelo em diversas v
 3. Existem diversos *frameworks* de mercado desenvolvidos para a plataforma PHP que implementam o padrão MVC. Dentre eles podemos citar o *Struts, JSF, e o *Spring* MVC.
 4. ***É característico da camada denominada *Controller*, conter a estrutura de dados que está dando suporte  à aplicação, bem como responder pelo tratamento e execução das regras de negócio da aplicação.***
 5. É de responsabilidade da camada denominada *View* a interface que, dentre outras atribuições, mostra as informações ao usuário, interpreta as suas requisições e as envia diretamente para a camada *Model*.
+
+***Questão 10:*** Um Analista de Informática  está desenvolvendo um site utilizando como referência de arquitetura o padrão MVC. Nesse padrão,
+
+1. classes que fazem a filtragem de requisisções vindas de formulários preenchidos pelos usuários são representados do grupo *view*.
+2. componentes do grupo *view* não podem se comunicar diretamente com componentes do grupo *model* sem passar pelo grupo *controller*.
+3. classes que representam entidades do banco de dados são reporesentadas no grupo *controller*.
+4. ***classes que executam comandos SQL para inserção, alterção, exclusão e consulta a dados nas tabelas do banco de dados são representadas no grupo model.***
+5. páginas *web* que possuem código  JavaScript são representadas no grupo *controller*.

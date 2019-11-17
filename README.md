@@ -126,3 +126,11 @@ III. Permite ao desenvolvedor reutilizar um mesmo objeto de modelo em diversas v
 3. manipular a tela com dados de negócio que podem ser alerados diretamente com o banco de dados.
 4. manipular o *model* do sistema responsável pela interface com o cliente.
 5. alterar a *view* do sistema que contém a lógica do negócio.
+
+***Questão 09:*** Com relação ao padrão de arquitetura de *software* denominado MVC (*Model-View-Controller*), é **CORRETO** afirmar que:
+
+1. A comunicação entre a interface com o usuário (camada *View*) e as regras de negócio é definida por meio da camada que representa o modelo de dados (camada *Model*), e é a ação deste componente da arquitetura que torna possível a separação entre as camadas.
+2. Quando um evento é executado em uma interface gráfica, essa interface irá se comunicar com a camada denominado *Controller*, que por sua vez se comunica com a camada que contém as regras de negócios.
+3. Existem diversos *frameworks* de mercado desenvolvidos para a plataforma PHP que implementam o padrão MVC. Dentre eles podemos citar o *Struts, JSF, e o *Spring* MVC.
+4. ***É característico da camada denominada *Controller*, conter a estrutura de dados que está dando suporte  à aplicação, bem como responder pelo tratamento e execução das regras de negócio da aplicação.***
+5. É de responsabilidade da camada denominada *View* a interface que, dentre outras atribuições, mostra as informações ao usuário, interpreta as suas requisições e as envia diretamente para a camada *Model*.

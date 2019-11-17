@@ -48,7 +48,7 @@ Nestas condições, para que o método esteja correto a lacuna deve ser preenchi
 4. st = conn.executeStatement("insert into cliente values ("+id+","+nome+","+renda+")");
 5. **st = conn.prepareStatement("insert into cliente (id, nome, renda) values (?, ?, ?)");**
 
-***Questão 04:*** Considere o método abaixo, presente em uma classe JAVA que realiza uma conexão com um banco de dados ***MySQL***.
+***Questão 04:*** Considere o método abaixo, presente em uma classe JAVA que realiza uma conexão com um banco de dados *MySQL*.
 
 ```java
 public int conectar() {
@@ -65,13 +65,13 @@ public int conectar() {
 ```
 
 É corretor afirmar que: 
-1. **con** é do tipo ConnectionManager, uma interface do parcote **java.mysql.jdbc**.
-2. Uma exceção do tipo ***SQLException*** será lançada se a classe ***Driver*** não estiver presente na biblioteca do projeto.
-3. Uma exceção do tipo ***ClassNotFoundException*** será lançada se a interface ***DriverManager*** não estiver na biblioteca do projeto.
+1. con é do tipo ConnectionManager, uma interface do parcote *java.mysql.jdbc*.
+2. Uma exceção do tipo *SQLException* será lançada se a classe *Driver* não estiver presente na biblioteca do projeto.
+3. Uma exceção do tipo *ClassNotFoundException* será lançada se a interface *DriverManager* não estiver na biblioteca do projeto.
 4. **Driver é classe da biblioteca do Driver JDBC do MySQL, presente no pacote com.mysql.jdbc**.
-5. **st** é do tipo ***PreparedStatement***, uma interface do pacote **java.sql**.
+5. st é do tipo *PreparedStatement*, uma interface do pacote *java.sql*
 
-***Questão 05:*** Considere o fragmento de código abaixo, retirado de uma classe de acesso a banco de dados em um aplicação que utilizava ***Java Database Connectivity*** - JDBC e Java 8.
+***Questão 05:*** Considere o fragmento de código abaixo, retirado de uma classe de acesso a banco de dados em um aplicação que utilizava *Java Database Connectivity* - JDBC e Java 8.
 
 ```java
 String url = "jdbc:mysql://localhost:3306/empresa";
@@ -91,18 +91,30 @@ try {
 }
 ```
 
-Para tratar corretamente as exceções que poder ser lançadas no bloco ***try***, a lacuna deve ser preenchida com:
-1. **ClassNotFoundException | SQLException**
-2. DriverException | MySQLException
-3. ClassNotFoundException | JDBCException
-4. JDBCException | SQLException
-5. SQLException | DriverException
+Para tratar corretamente as exceções que poder ser lançadas no bloco *try*, a lacuna deve ser preenchida com:
+1. **8ClassNotFoundException | SQLException***
+2. *DriverException | MySQLException*
+3. *ClassNotFoundException | JDBCException*
+4. *JDBCException | SQLException*
+5. *SQLException | DriverException*
 
-***Questão 06:*** Para se ter acesso a um banco de dados ***Mysql*** a partir de um código escrito em Java e por meio de JDBC, é necessário conhecer:
-1. Nome do banco, nome do ***host*** número da sessão.
-2. Nome do ***host***, número da sessão e número da porta.
-3. Número do soquete, nome do ***host*** e número da sessão.
-4. **Número do soquete, nome do ***host*** e número da porta.**
+***Questão 06:*** Para se ter acesso a um banco de dados *Mysql* a partir de um código escrito em Java e por meio de JDBC, é necessário conhecer:
+1. Nome do banco, nome do *host* número da sessão.
+2. Nome do *host*, número da sessão e número da porta.
+3. Número do soquete, nome do *host* e número da sessão.
+4. Número do soquete, nome do *host* e número da porta.
+5. **Nome do banco de dados, nome no *host* e número da porta.**
 
+---
+## MVC 
 
+***Questão 07:*** O padrão MVC é utilizado em muitos projetos devido à arquitetura que possui, o que possibilita a divisão do projeto em camadas muito definidas: o ***Model***, ***Controller*** e a ***View***.
 
+I. Na camada de controle (*Controller*), teremos a manipulação dos inputs do usuário, sua interpreação e execução das taredas correspondentes.
+II. A camada de visualização (*View*) deve ser responsável somente pela visualização, exercendo qualquer tipo de controle no fluxo de execução da aplicação.
+III. Permite ao desenvolvedor reutilizar um mesmo objeto de modelo em diversas visualizações diferentes.
+
+1. I e II apenas.
+2. ***I e III apenas.***
+3. II e III apenas.
+4. I, II e III.

@@ -98,5 +98,11 @@ Para tratar corretamente as exceções que poder ser lançadas no bloco ***try**
 4. JDBCException | SQLException
 5. SQLException | DriverException
 
+***Questão 06:*** Para se ter acesso a um banco de dados ***Mysql*** a partir de um código escrito em Java e por meio de JDBC, é necessário conhecer:
+1. Nome do banco, nome do ***host*** número da sessão.
+2. Nome do ***host***, número da sessão e número da porta.
+3. Número do soquete, nome do ***host*** e número da sessão.
+4. **Número do soquete, nome do ***host*** e número da porta.**
+
 
 

@@ -142,3 +142,11 @@ III. Permite ao desenvolvedor reutilizar um mesmo objeto de modelo em diversas v
 3. classes que representam entidades do banco de dados são reporesentadas no grupo *controller*.
 4. ***classes que executam comandos SQL para inserção, alterção, exclusão e consulta a dados nas tabelas do banco de dados são representadas no grupo model.***
 5. páginas *web* que possuem código  JavaScript são representadas no grupo *controller*.
+
+***Questão 11:*** Com relação aos componentes do padrão MVC, assinale a opção correta:
+
+1. A visão responde consultas.
+2. A visão encapsula o estado da aplicação.
+3. A visão expõe as funcionalidades da aplicação.
+4. ***A visão envia informações da interação do usuário.***
+5. A visão notifica o controlador sobre mudanças no estado da aplicação.
